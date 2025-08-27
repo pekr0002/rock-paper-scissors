@@ -63,7 +63,7 @@ function results() {
   player2.classList.add(choices[computerChoice]);
 
   // calculates the winner.
-  if (playerChoice === computerChoice) {
+  if (playerChoice == computerChoice) {
     console.log("its a draw");
     document.querySelector("#draw").classList.toggle("hidden");
     // all instenses where player is the winner
